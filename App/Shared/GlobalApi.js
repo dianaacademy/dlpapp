@@ -8,7 +8,11 @@ const api = create({
   })
 
 const getSlider=()=>api.get('/sliders?populate=*');
+const getVideoCourse=()=>api.get('video-courses?populate=*');
+const getCourseList=(type)=>api.get('course-lists?filters[type][$eq]='+type+'&populate=*');
 
 export default{
-    getSlider
+    getSlider,
+    getVideoCourse,
+    getCourseList
 }
