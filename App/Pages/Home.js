@@ -7,6 +7,9 @@ import WelcomeHeader from '../Components/WelcomeHeader'
 import SearchBar from '../Components/SearchBar'
 import GlobalApi from '../Shared/GlobalApi'
 import Slider from '../Components/Slider'
+import VideoCourseList from '../Components/VideoCourseList'
+import CourseList from '../Components/CourseList'
+import { ScrollView } from 'react-native'
 
 
 
@@ -14,11 +17,13 @@ export default function Home() {
     const {userData,setUserData}=useContext(AuthContext)
    
   return (
-    <View style={{padding:20}}>
+    <ScrollView style={{padding:20}}>
         <WelcomeHeader/>
         <SearchBar/>
         <Slider/>
-        
-    </View>
+        <VideoCourseList/>
+        <CourseList type={'basic'} />
+        <CourseList type={'advance'} />
+    </ScrollView>
   )
 }
