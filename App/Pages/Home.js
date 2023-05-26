@@ -27,6 +27,6 @@ export default function Home() {
         <View style={{height:100}}> 
           
         </View>
-    </ScrollView>
+    </ScrollView> 
   )
 }
