@@ -11,7 +11,7 @@ export default function CourseList({type}) {
     const [courseList,setCourseList]=useState([])
     const navigation=useNavigation();
     useEffect(()=>{
-        
+         
         getCourseList();
     },[])
 
@@ -31,7 +31,8 @@ export default function CourseList({type}) {
 
     const onPressCourse=(course)=>{
         
-        navigation.navigate('course-detail',{courseData:course})
+        navigation.navigate('course-detail',{courseData:course,
+          courseType:'text'})
     }
   return (
     <View style={{marginTop:10}}>

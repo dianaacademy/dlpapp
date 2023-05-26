@@ -17,5 +17,5 @@ const Logout=()=>{
 export default{
     setUserAuth,
     getUserAuth,
-    Logout
+    Logout,
 }
