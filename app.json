@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "education-app",
-    "slug": "codebox",
+    "name": "diana",
+    "slug": "diana",
     "version": "1.0.0",
-    "scheme": "codebox",
+    "scheme": "diana",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,7 +23,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.tubeguruji.codebox",
+      "package": "com.academy.diana",
       "versionCode": 1
     },
     "web": {
@@ -31,8 +31,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "8df0d0df-8767-4c24-bbbf-1f99357ce6eb"
-      }
-    }
+        "projectId": "5ab835c7-580e-410b-96e4-bb96559cb097"
+      }   
   }
+}
 }
